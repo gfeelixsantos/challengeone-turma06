@@ -1,0 +1,159 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: Inter;
+    color: #0A3871;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex: 1 0 0;
+}
+
+video {
+    height: 100vh;
+    z-index: -1;
+    position: fixed;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    flex: 1 1 0;
+}
+
+.div_container {
+    margin: 2rem 0 1rem 1rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: .2rem solid #0A3871;
+}
+
+#titulo {
+    font-size: 3.2rem;
+    color: #fff;
+}
+
+textarea {
+    width: 20rem;
+    border: .15rem solid #0A3871;
+    font-size: 1rem;
+    line-height: 3rem;
+    margin: 5rem;
+    padding: 1rem;
+    text-align: left;
+    background-color: #fff;
+}
+
+textarea::-webkit-scrollbar-track-piece{
+    margin-right: 2rem;
+    background-color: #0A3871;
+    border-radius: 2rem;
+}
+
+
+h4 {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.actions {
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+    display: flex;
+    gap: 3rem;
+} 
+
+button {
+    width: 10rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: none;
+    font-size: 1rem;
+
+}
+
+#criptografar {
+    background-color: #0A3871;
+    color: #fff; 
+}
+#criptografar:hover {
+    background-color: #1968c9;
+    border: .1rem solid #ffff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#descriptografar {
+    background-color: #d0cece;
+    color: #0A3871; 
+}
+#descriptografar:hover {
+    background-color: #4d4e4e;
+    border: .1rem solid #ffff;
+    color: #fff; 
+    cursor: pointer;
+    transition: .5s;
+}
+
+#copiar {
+    margin-top: 3rem;
+    background-color: #0A3871;
+    color: #fff;
+}
+
+#copiar:hover {
+    cursor: pointer;
+    background-color: #1968c9;
+    border: .1rem solid #ffff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+body > main > div:nth-child(1) > a > img {
+    margin-top: 8rem;
+}
+
+
+.results {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+body > main > div:nth-child(2) > div > img {
+    margin-top: 6rem;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #000;
+    border-left: .3rem solid #0A3871;
+    font-family: Inter;
+    align-items: center;
+    justify-content: center;
+}
+
+body > footer > a:nth-child(1) > img:hover {
+    width: 3rem;
+    transition: .2s;
+}
+body > footer > a:nth-child(2) > img:hover {
+    width: 3rem;
+    transition: .2s;
+}

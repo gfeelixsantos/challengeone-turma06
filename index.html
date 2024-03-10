@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/img/favicon-32x32.png">
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <title>Challenge ONE - Oracle Education</title>
+</head>
+<body>
+    <video src="/src/video/CIRCULAR_INTERFACE_HUD.mp4" loop="true" autoplay="true" muted></video>
+    <main>
+        <div class="div_container">
+            <a href="/" style="text-decoration: none;"><h1 id="titulo" ><img src="./src/img/alura.svg" alt="Alura logotipo" >| Decodificador</h1></a>
+            <textarea type="text" name="texto" id="texto" placeholder="Digite sua mensagem..." cols="10" rows="5" autofocus></textarea>
+            <h4>Selecione uma ação:</h4>
+            <div class="actions">
+                <button type="button" id="criptografar">Criptografar</button>
+                <button type="button" id="descriptografar">Descriptografar</button>
+            </div>
+            <a href="https://www.oracle.com/br/education/oracle-next-education/" target="_blank"><img src="https://cdn2.gnarususercontent.com.br/1/1221562/b6256fa6-5fde-4cdd-a4a3-d33ebc90bb6c.png" alt="Logo Oracle Next Education"></a>
+        </div>
+    
+        <div class="div_container">
+            <div class="results">
+                <h4>Sem mensagens...</h4>
+                <textarea type="text" cols="10" rows="5" disabled hidden></textarea>
+                <img src="/src/img/search.png" alt="">
+                <button type="button" id="copiar" hidden>Copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer>    
+        <a href="https://github.com/gfeelixsantos" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/11378/11378785.png" width="36" alt="Link para Github"></a>
+        <a href="https://www.linkedin.com/in/gabriel-felix-85ba259b/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/145/145807.png" alt="Link para Linkedin" width="36"></a>
+    </footer> 
+</body>
+<script src="/src/js/criptografar.js"></script>
+</html>
