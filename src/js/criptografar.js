@@ -11,11 +11,11 @@ btn_criptografar.addEventListener('click', criptografar)
 btn_descriptografar.addEventListener('click', descriptografar)
 btn_copiar.addEventListener('click', copiarTexto)
 
-const criptoA = 'uzhaf'
-const criptoE = '£on'
-const criptoI = 'lwher'
-const criptoO = 'gdhep'
-const criptoU = 'kveq'
+const criptoA = 'ai'
+const criptoE = 'enter'
+const criptoI = 'imes'
+const criptoO = 'ober'
+const criptoU = 'ufat'
 
 function criptografar() {
 
