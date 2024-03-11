@@ -11,7 +11,7 @@
 
 ### Preview
 
-<img src="https://i.ibb.co/rvVksvG/preview.gif" alt="preview" border="0">
+<img src="https://i.ibb.co/rZVzX17/preview.png" alt="preview" border="0">
 
 #### Confira a página completa através do GitHub Pages.
 
