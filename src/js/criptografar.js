@@ -65,3 +65,12 @@ function copiarTexto(){
     navigator.clipboard.writeText(textAreaResultado.value)
     alert('A mensagem foi copiada para sua área de transferência')
 }
+
+textArea.addEventListener('keyup', (evt) => {
+    const letra = evt.target.value
+    const verificaLetra = new RegExp(/[a-z]$/)
+    if (!verificaLetra.test(letra)){
+        window.alert('Apenas letras minúsculas !')
+        console.log(evt);
+    }
+})
